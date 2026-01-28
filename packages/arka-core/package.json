@@ -1,0 +1,32 @@
+{
+  "name": "@arka/core",
+  "version": "0.1.0",
+  "description": "ARKA Protocol Core Rules Engine",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@arka/types": "workspace:*",
+    "@arka/utils": "workspace:*",
+    "ajv": "^8.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2",
+    "vitest": "^1.0.0"
+  }
+}

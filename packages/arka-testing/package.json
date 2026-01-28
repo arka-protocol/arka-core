@@ -1,0 +1,47 @@
+{
+  "name": "@arka/testing",
+  "version": "0.1.0",
+  "description": "ARKA Protocol Testing Utilities - Mocks, factories, fixtures, and test helpers",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./mocks": {
+      "types": "./dist/mocks/index.d.ts",
+      "import": "./dist/mocks/index.js"
+    },
+    "./factories": {
+      "types": "./dist/factories/index.d.ts",
+      "import": "./dist/factories/index.js"
+    },
+    "./fixtures": {
+      "types": "./dist/fixtures/index.d.ts",
+      "import": "./dist/fixtures/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@arka/types": "workspace:*",
+    "@arka/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2",
+    "vitest": "^1.0.0"
+  },
+  "peerDependencies": {
+    "vitest": "^1.0.0"
+  }
+}

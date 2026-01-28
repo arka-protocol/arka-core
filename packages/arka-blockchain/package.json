@@ -1,0 +1,58 @@
+{
+  "name": "@arka/blockchain",
+  "version": "0.1.0",
+  "description": "Blockchain adapter interfaces and implementations for ARKA Protocol",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./adapters/hyperledger": {
+      "types": "./dist/adapters/hyperledger.d.ts",
+      "import": "./dist/adapters/hyperledger.js"
+    },
+    "./adapters/memory": {
+      "types": "./dist/adapters/memory.d.ts",
+      "import": "./dist/adapters/memory.js"
+    },
+    "./managed-blockchain": {
+      "types": "./dist/managed-blockchain/index.d.ts",
+      "import": "./dist/managed-blockchain/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@arka/types": "workspace:*",
+    "@arka/crypto": "workspace:*",
+    "@arka/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-managedblockchain": "^3.500.0",
+    "typescript": "^5.3.2",
+    "vitest": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@aws-sdk/client-managedblockchain": "^3.0.0",
+    "fabric-network": "^2.2.0"
+  },
+  "peerDependenciesMeta": {
+    "@aws-sdk/client-managedblockchain": {
+      "optional": true
+    },
+    "fabric-network": {
+      "optional": true
+    }
+  }
+}
