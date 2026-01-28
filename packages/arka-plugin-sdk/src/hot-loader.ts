@@ -10,7 +10,7 @@
  * - Register/unregister automatically
  */
 
-import { createLogger, ValidationError } from '@arka/utils';
+import { createLogger, ValidationError } from '@arka-protocol/utils';
 import type {
   ArkaDomainPlugin,
   PluginManifest,

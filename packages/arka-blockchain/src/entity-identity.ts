@@ -15,9 +15,9 @@
  */
 
 import { createHash } from 'crypto';
-import { canonicalSerialize } from '@arka/crypto';
-import { createLogger, ids } from '@arka/utils';
-import type { ArkaEntity } from '@arka/types';
+import { canonicalSerialize } from '@arka-protocol/crypto';
+import { createLogger, ids } from '@arka-protocol/utils';
+import type { ArkaEntity } from '@arka-protocol/types';
 import type { BlockchainAdapter } from './types.js';
 
 const logger = createLogger({ service: 'entity-identity' });

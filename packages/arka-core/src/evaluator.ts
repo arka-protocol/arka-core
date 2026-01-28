@@ -15,9 +15,9 @@ import type {
   DecisionStatus,
   RuleEvaluationResult,
   CompareCondition,
-} from '@arka/types';
-import { getNestedValue } from '@arka/utils';
-import { ids, now } from '@arka/utils';
+} from '@arka-protocol/types';
+import { getNestedValue } from '@arka-protocol/utils';
+import { ids, now } from '@arka-protocol/utils';
 
 /**
  * Context passed to rule evaluation

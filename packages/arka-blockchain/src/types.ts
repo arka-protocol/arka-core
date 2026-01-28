@@ -4,7 +4,7 @@
  * Core interfaces for blockchain integration in ARKA Protocol.
  */
 
-import type { MerkleProof } from '@arka/crypto';
+import type { MerkleProof } from '@arka-protocol/crypto';
 
 /**
  * Supported blockchain networks

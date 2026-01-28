@@ -317,7 +317,7 @@ export function generateServiceClass(
   const lines: string[] = [];
   const className = `${capitalize(name)}Service`;
 
-  lines.push(`import { Logger, createLogger } from '@arka/utils';`);
+  lines.push(`import { Logger, createLogger } from '@arka-protocol/utils';`);
   lines.push('');
   lines.push(`export interface ${className}Options {`);
   lines.push('  // Add configuration options');
@@ -366,8 +366,8 @@ export function generateRepository(
   const lines: string[] = [];
   const className = `${capitalize(entityName)}Repository`;
 
-  lines.push(`import { selectFrom, insertInto, update, deleteFrom, createPaginatedResult } from '@arka/utils';`);
-  lines.push(`import type { PaginationConfig, PaginatedResult } from '@arka/utils';`);
+  lines.push(`import { selectFrom, insertInto, update, deleteFrom, createPaginatedResult } from '@arka-protocol/utils';`);
+  lines.push(`import type { PaginationConfig, PaginatedResult } from '@arka-protocol/utils';`);
   lines.push(`import type { ${capitalize(entityName)} } from './${entityName}.types';`);
   lines.push('');
   lines.push(`export class ${className} {`);

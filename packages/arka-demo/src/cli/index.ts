@@ -12,7 +12,7 @@ import { table } from 'table';
 import inquirer from 'inquirer';
 import { createDemoEngine, type InMemoryDemoEngine } from '../modes/in-memory-engine.js';
 import { demoDataset, demoScenarios, ruleCategories } from '../seed-data/index.js';
-import type { ArkaDecision } from '@arka/types';
+import type { ArkaDecision } from '@arka-protocol/types';
 
 const program = new Command();
 

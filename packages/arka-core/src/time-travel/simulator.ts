@@ -12,7 +12,7 @@ import type {
   ArkaDecision,
   TimeTravelSimulationRequest,
   TimeTravelSimulationResult,
-} from '@arka/types';
+} from '@arka-protocol/types';
 
 /**
  * Snapshot of rules and entities at a point in time

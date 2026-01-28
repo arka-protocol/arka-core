@@ -1,7 +1,7 @@
 {
-  "name": "@arka/utils",
+  "name": "@arka-protocol/utils",
   "version": "0.1.0",
-  "description": "Shared utilities for ARKA Protocol",
+  "description": "Production-ready utility library for ARKA Protocol - includes logging, caching, resilience patterns, rate limiting, and more",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -14,6 +14,26 @@
       "types": "./dist/middleware/index.d.ts",
       "import": "./dist/middleware/index.js",
       "require": "./dist/middleware/index.js"
+    },
+    "./cache": {
+      "types": "./dist/cache/index.d.ts",
+      "import": "./dist/cache/index.js",
+      "require": "./dist/cache/index.js"
+    },
+    "./resilience": {
+      "types": "./dist/resilience/index.d.ts",
+      "import": "./dist/resilience/index.js",
+      "require": "./dist/resilience/index.js"
+    },
+    "./database": {
+      "types": "./dist/database/index.d.ts",
+      "import": "./dist/database/index.js",
+      "require": "./dist/database/index.js"
+    },
+    "./metrics": {
+      "types": "./dist/metrics/index.d.ts",
+      "import": "./dist/metrics/index.js",
+      "require": "./dist/metrics/index.js"
     }
   },
   "files": ["dist"],
@@ -25,8 +45,38 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "keywords": [
+    "arka",
+    "arka-protocol",
+    "utilities",
+    "logging",
+    "caching",
+    "circuit-breaker",
+    "rate-limiting",
+    "resilience",
+    "retry",
+    "middleware",
+    "express",
+    "typescript",
+    "policy-engine",
+    "ai-governance"
+  ],
+  "author": "ARKA Protocol",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arka-protocol/arka-core.git",
+    "directory": "packages/arka-utils"
+  },
+  "homepage": "https://www.arkaprotocol.com",
+  "bugs": {
+    "url": "https://github.com/arka-protocol/arka-core/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "@arka/types": "workspace:*",
+    "@arka-protocol/types": "workspace:*",
     "pino": "^8.17.0"
   },
   "peerDependencies": {

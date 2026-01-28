@@ -11,8 +11,8 @@
  * Enables Cortex to interpret domain laws, propose rules, and analyze risk.
  */
 
-import { createLogger } from '@arka/utils';
-import type { ArkaRule } from '@arka/types';
+import { createLogger } from '@arka-protocol/utils';
+import type { ArkaRule } from '@arka-protocol/types';
 
 const logger = createLogger({ service: 'ai-extension' });
 

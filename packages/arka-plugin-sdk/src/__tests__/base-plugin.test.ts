@@ -4,7 +4,7 @@
 
 import { describe, it, expect } from 'vitest';
 import { BaseArkaPlugin } from '../base-plugin.js';
-import type { ArkaEntityType, ArkaRule, ArkaEvent, ArkaEntity } from '@arka/types';
+import type { ArkaEntityType, ArkaRule, ArkaEvent, ArkaEntity } from '@arka-protocol/types';
 import type { PluginManifest, DomainEvent, ValidationResult } from '../types.js';
 
 // Concrete implementation for testing

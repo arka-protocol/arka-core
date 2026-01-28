@@ -1,7 +1,7 @@
 {
-  "name": "@arka/testing",
+  "name": "@arka-protocol/testing",
   "version": "0.1.0",
-  "description": "ARKA Protocol Testing Utilities - Mocks, factories, fixtures, and test helpers",
+  "description": "Comprehensive testing utilities for ARKA Protocol - mocks, factories, fixtures, and test helpers for compliance rule engines, AML/KYC workflows, and plugin development",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -23,7 +23,10 @@
       "import": "./dist/fixtures/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -32,9 +35,35 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "keywords": [
+    "arka",
+    "arka-protocol",
+    "testing",
+    "test-utilities",
+    "mocks",
+    "fixtures",
+    "factories",
+    "compliance",
+    "aml",
+    "kyc",
+    "rule-engine",
+    "fintech",
+    "regtech"
+  ],
+  "author": "ARKA Protocol",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arka-protocol/arka-core.git",
+    "directory": "packages/arka-testing"
+  },
+  "homepage": "https://www.arkaprotocol.com/docs",
+  "bugs": {
+    "url": "https://github.com/arka-protocol/arka-core/issues"
+  },
   "dependencies": {
-    "@arka/types": "workspace:*",
-    "@arka/utils": "workspace:*"
+    "@arka-protocol/types": "workspace:*",
+    "@arka-protocol/utils": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
@@ -43,5 +72,8 @@
   },
   "peerDependencies": {
     "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

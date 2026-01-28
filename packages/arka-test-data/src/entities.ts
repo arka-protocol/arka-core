@@ -2,7 +2,7 @@
  * Test Entity Types and Fixtures
  */
 
-import type { ArkaEntityType, ArkaEntity, JSONSchema } from '@arka/types';
+import type { ArkaEntityType, ArkaEntity, JSONSchema } from '@arka-protocol/types';
 
 // ============ Loan Entity Type ============
 

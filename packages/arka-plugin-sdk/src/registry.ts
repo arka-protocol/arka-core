@@ -4,8 +4,8 @@
  * Central registry for managing domain plugins.
  */
 
-import type { ArkaEntityType, ArkaRule } from '@arka/types';
-import { createLogger, ValidationError } from '@arka/utils';
+import type { ArkaEntityType, ArkaRule } from '@arka-protocol/types';
+import { createLogger, ValidationError } from '@arka-protocol/utils';
 import type {
   ArkaDomainPlugin,
   PluginRegistration,

@@ -1,7 +1,7 @@
 {
-  "name": "@arka/crypto",
+  "name": "@arka-protocol/crypto",
   "version": "0.1.0",
-  "description": "Cryptographic utilities for ARKA Protocol blockchain integration",
+  "description": "Enterprise-grade cryptographic utilities for blockchain integration, featuring Merkle trees, canonical serialization, append-only event logs, and zero-knowledge proof compliance verification",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
@@ -21,8 +21,38 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "keywords": [
+    "cryptography",
+    "merkle-tree",
+    "blockchain",
+    "zero-knowledge-proofs",
+    "zkp",
+    "audit-trail",
+    "event-sourcing",
+    "compliance",
+    "data-integrity",
+    "canonical-serialization",
+    "hashing",
+    "sha256",
+    "enterprise",
+    "arka-protocol"
+  ],
+  "author": "ARKA Protocol",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arka-protocol/arka-core.git",
+    "directory": "packages/arka-crypto"
+  },
+  "homepage": "https://www.arkaprotocol.com",
+  "bugs": {
+    "url": "https://github.com/arka-protocol/arka-core/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "@arka/types": "workspace:*"
+    "@arka-protocol/types": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.3.2",

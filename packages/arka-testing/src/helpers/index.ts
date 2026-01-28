@@ -5,7 +5,7 @@
  */
 
 import { describe, it, expect, vi } from 'vitest';
-import type { ArkaRule, ArkaEvent, ArkaDecision } from '@arka/types';
+import type { ArkaRule, ArkaEvent, ArkaDecision } from '@arka-protocol/types';
 
 // ============================================================================
 // Async Test Helpers

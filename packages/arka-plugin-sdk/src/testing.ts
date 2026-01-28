@@ -9,7 +9,7 @@
  * - Mock services
  */
 
-import { createLogger } from '@arka/utils';
+import { createLogger } from '@arka-protocol/utils';
 import type {
   ArkaEvent,
   ArkaEntity,
@@ -19,7 +19,7 @@ import type {
   ArkaCondition,
   ArkaConsequence,
   CreateEventInput,
-} from '@arka/types';
+} from '@arka-protocol/types';
 import type { ArkaDomainPlugin, DomainEvent, ValidationResult } from './types.js';
 
 const logger = createLogger({ service: 'arka-testing' });
@@ -147,7 +147,7 @@ export class RuleBuilder {
     this.rule.condition = {
       type: 'compare',
       field,
-      operator: operator as import('@arka/types').ComparisonOperator,
+      operator: operator as import('@arka-protocol/types').ComparisonOperator,
       value,
     };
     return this;

@@ -10,7 +10,7 @@ import {
   getDefaultEntityTypeRegistry,
   resetDefaultRegistries,
 } from '../registry.js';
-import type { ArkaRule, ArkaEntityType, ArkaEvent, ArkaEntity } from '@arka/types';
+import type { ArkaRule, ArkaEntityType, ArkaEvent, ArkaEntity } from '@arka-protocol/types';
 
 // Helper to create a test rule
 function createTestRule(overrides: Partial<ArkaRule> = {}): ArkaRule {

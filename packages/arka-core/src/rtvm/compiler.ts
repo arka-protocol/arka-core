@@ -4,7 +4,7 @@
  * Compiles ARKA Rule DSL to RTVM bytecode (Enhancement #3).
  */
 
-import type { ArkaRule, ArkaCondition } from '@arka/types';
+import type { ArkaRule, ArkaCondition } from '@arka-protocol/types';
 import { createHash } from 'crypto';
 import {
   Opcode,

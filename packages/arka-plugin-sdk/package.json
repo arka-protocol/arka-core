@@ -1,7 +1,7 @@
 {
-  "name": "@arka/plugin-sdk",
+  "name": "@arka-protocol/plugin-sdk",
   "version": "0.1.0",
-  "description": "SDK for building ARKA Protocol domain plugins",
+  "description": "Official SDK for building domain plugins for the ARKA Protocol compliance automation platform. Create custom compliance rules, entity types, AI extensions, and CLI commands.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
@@ -10,9 +10,22 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.js"
+    },
+    "./cli": {
+      "types": "./dist/cli/index.d.ts",
+      "import": "./dist/cli/index.js",
+      "require": "./dist/cli/index.js"
+    },
+    "./testing": {
+      "types": "./dist/testing.d.ts",
+      "import": "./dist/testing.js",
+      "require": "./dist/testing.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -21,10 +34,41 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "keywords": [
+    "arka",
+    "arka-protocol",
+    "compliance",
+    "regulatory",
+    "fintech",
+    "govtech",
+    "plugin",
+    "sdk",
+    "rules-engine",
+    "blockchain",
+    "audit",
+    "aml",
+    "kyc",
+    "risk",
+    "automation"
+  ],
+  "author": "ARKA Protocol",
+  "license": "Apache-2.0",
+  "homepage": "https://www.arkaprotocol.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arka-protocol/arka-core.git",
+    "directory": "packages/arka-plugin-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/arka-protocol/arka-core/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "@arka/types": "workspace:*",
-    "@arka/core": "workspace:*",
-    "@arka/utils": "workspace:*",
+    "@arka-protocol/types": "workspace:*",
+    "@arka-protocol/core": "workspace:*",
+    "@arka-protocol/utils": "workspace:*",
     "jose": "^5.2.0"
   },
   "devDependencies": {

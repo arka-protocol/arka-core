@@ -11,8 +11,8 @@ import type {
   ArkaEvent,
   ArkaEntity,
   RuleFilterParams,
-} from '@arka/types';
-import { isEffective } from '@arka/utils';
+} from '@arka-protocol/types';
+import { isEffective } from '@arka-protocol/utils';
 
 /**
  * In-memory rule registry

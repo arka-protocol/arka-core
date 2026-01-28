@@ -9,7 +9,7 @@ import type {
   EntityRiskScore as BaseEntityRiskScore,
   RiskFactor as BaseRiskFactor,
   RiskBand,
-} from '@arka/types';
+} from '@arka-protocol/types';
 
 /**
  * Extended risk band with scoring metadata

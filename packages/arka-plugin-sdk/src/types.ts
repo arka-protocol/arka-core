@@ -10,7 +10,7 @@ import type {
   ArkaEntityType,
   ArkaRule,
   CreateEventInput,
-} from '@arka/types';
+} from '@arka-protocol/types';
 
 /**
  * Unique identifier for a plugin

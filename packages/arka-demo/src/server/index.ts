@@ -9,7 +9,7 @@ import express, { type Request, type Response, type NextFunction } from 'express
 import chalk from 'chalk';
 import { createDemoEngine, type InMemoryDemoEngine } from '../modes/in-memory-engine.js';
 import { demoDataset, demoScenarios, ruleCategories } from '../seed-data/index.js';
-import type { ArkaEvent } from '@arka/types';
+import type { ArkaEvent } from '@arka-protocol/types';
 
 let engine: InMemoryDemoEngine;
 

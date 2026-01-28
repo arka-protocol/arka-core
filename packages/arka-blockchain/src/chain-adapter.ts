@@ -13,8 +13,8 @@
  * - Government chains
  */
 
-import { createLogger } from '@arka/utils';
-import type { ArkaRule } from '@arka/types';
+import { createLogger } from '@arka-protocol/utils';
+import type { ArkaRule } from '@arka-protocol/types';
 import type {
   BlockchainAdapter,
   BlockchainConfig,

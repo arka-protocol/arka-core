@@ -5,7 +5,7 @@
  * for compliance proofs and audit trails (Enhancement #12).
  */
 
-import { createLogger } from '@arka/utils';
+import { createLogger } from '@arka-protocol/utils';
 
 const logger = createLogger({ service: 'chain-adapter' });
 

@@ -1,7 +1,7 @@
 {
-  "name": "@arka/blockchain",
+  "name": "@arka-protocol/blockchain",
   "version": "0.1.0",
-  "description": "Blockchain adapter interfaces and implementations for ARKA Protocol",
+  "description": "Multi-chain blockchain anchoring for compliance audit trails, rule NFTs, entity identity (DID), and compliance oracles. Supports Ethereum, Solana, Cosmos, Polkadot, Hyperledger Fabric, and AWS Managed Blockchain.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
@@ -24,7 +24,11 @@
       "import": "./dist/managed-blockchain/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -33,10 +37,48 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "solana",
+    "cosmos",
+    "polkadot",
+    "hyperledger",
+    "compliance",
+    "audit",
+    "anchor",
+    "merkle-tree",
+    "nft",
+    "did",
+    "decentralized-identity",
+    "oracle",
+    "multi-chain",
+    "cross-chain",
+    "immutable",
+    "tamper-proof",
+    "regulatory",
+    "fintech",
+    "govtech",
+    "enterprise"
+  ],
+  "author": "ARKA Protocol",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arka-protocol/arka-core.git",
+    "directory": "packages/arka-blockchain"
+  },
+  "homepage": "https://www.arkaprotocol.com/docs",
+  "bugs": {
+    "url": "https://github.com/arka-protocol/arka-core/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "@arka/types": "workspace:*",
-    "@arka/crypto": "workspace:*",
-    "@arka/utils": "workspace:*"
+    "@arka-protocol/types": "workspace:*",
+    "@arka-protocol/crypto": "workspace:*",
+    "@arka-protocol/utils": "workspace:*"
   },
   "devDependencies": {
     "@aws-sdk/client-managedblockchain": "^3.500.0",

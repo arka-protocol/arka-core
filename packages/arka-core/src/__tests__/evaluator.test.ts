@@ -3,7 +3,7 @@
  */
 
 import { describe, it, expect, beforeEach } from 'vitest';
-import type { ArkaEvent, ArkaEntity, ArkaRule, ArkaCondition } from '@arka/types';
+import type { ArkaEvent, ArkaEntity, ArkaRule, ArkaCondition } from '@arka-protocol/types';
 import { evaluateCondition, evaluateSingleRule, evaluateRules, getApplicableRules } from '../evaluator.js';
 
 // Test fixtures

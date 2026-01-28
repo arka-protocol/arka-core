@@ -13,7 +13,7 @@
  *   defineFlag,
  *   type PluginCLIExtension,
  *   type CLICommandContext,
- * } from '@arka/plugin-sdk/cli';
+ * } from '@arka-protocol/plugin-sdk/cli';
  *
  * // Define CLI commands using the fluent builder
  * const cliManifest = defineCLI('my-plugin', '1.0.0')

@@ -12,7 +12,7 @@ import type {
   SlashingEvent,
   ValidatorConfig,
 } from './types.js';
-import { hashData } from '@arka/crypto';
+import { hashData } from '@arka-protocol/crypto';
 
 /**
  * Gossip peer information

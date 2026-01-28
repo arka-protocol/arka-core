@@ -1,5 +1,5 @@
 {
-  "name": "@arka/test-data",
+  "name": "@arka-protocol/test-data",
   "version": "0.1.0",
   "description": "Test fixtures and sample data for ARKA Protocol",
   "main": "./dist/index.js",
@@ -19,7 +19,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@arka/types": "workspace:*"
+    "@arka-protocol/types": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.3.2"

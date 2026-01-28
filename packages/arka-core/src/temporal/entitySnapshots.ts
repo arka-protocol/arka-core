@@ -5,7 +5,7 @@
  * queries for compliance evaluation (Enhancement #16).
  */
 
-import type { ArkaEntity } from '@arka/types';
+import type { ArkaEntity } from '@arka-protocol/types';
 
 /**
  * Entity snapshot at a point in time

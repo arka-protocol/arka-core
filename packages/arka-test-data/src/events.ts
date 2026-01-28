@@ -2,7 +2,7 @@
  * Test Event Fixtures
  */
 
-import type { ArkaEvent, CreateEventInput } from '@arka/types';
+import type { ArkaEvent, CreateEventInput } from '@arka-protocol/types';
 
 // ============ Loan Events ============
 

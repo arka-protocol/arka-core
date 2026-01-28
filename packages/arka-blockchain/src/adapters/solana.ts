@@ -12,10 +12,10 @@
  */
 
 import { createHash } from 'crypto';
-import { canonicalSerialize } from '@arka/crypto';
-import { createLogger, ids } from '@arka/utils';
-import type { ArkaRule } from '@arka/types';
-import type { MerkleProof } from '@arka/crypto';
+import { canonicalSerialize } from '@arka-protocol/crypto';
+import { createLogger, ids } from '@arka-protocol/utils';
+import type { ArkaRule } from '@arka-protocol/types';
+import type { MerkleProof } from '@arka-protocol/crypto';
 import type {
   BlockchainConfig,
   BlockchainHealth,

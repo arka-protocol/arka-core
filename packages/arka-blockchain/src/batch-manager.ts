@@ -10,7 +10,7 @@ import {
   getMerkleRoot,
   generateMerkleProof,
   type MerkleProof,
-} from '@arka/crypto';
+} from '@arka-protocol/crypto';
 import type { AnchorRequest, BatchManager, BatchManagerConfig } from './types.js';
 
 /**

@@ -12,7 +12,7 @@ import {
   validateSchema,
   createValidator,
 } from '../validator.js';
-import type { ArkaEntity, ArkaEntityType, JSONSchema } from '@arka/types';
+import type { ArkaEntity, ArkaEntityType, JSONSchema } from '@arka-protocol/types';
 
 // Test schemas
 const customerSchema: JSONSchema = {

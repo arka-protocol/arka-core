@@ -5,7 +5,7 @@
  * and audit trails (Enhancement #11).
  */
 
-import type { ArkaRule, ArkaCondition, ArkaConsequence } from '@arka/types';
+import type { ArkaRule, ArkaCondition, ArkaConsequence } from '@arka-protocol/types';
 
 /**
  * Diff operation type

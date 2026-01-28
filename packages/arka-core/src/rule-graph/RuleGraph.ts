@@ -12,7 +12,7 @@ import type {
   RuleRelationshipType,
   RuleGraphAnalysis,
   RuleConflict,
-} from '@arka/types';
+} from '@arka-protocol/types';
 
 /**
  * Node in the rule graph

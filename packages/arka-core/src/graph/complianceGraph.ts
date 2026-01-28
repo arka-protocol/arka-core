@@ -5,7 +5,7 @@
  * entities, rules, jurisdictions, and decisions (Enhancement #18).
  */
 
-import type { GraphNode, GraphEdge } from '@arka/types';
+import type { GraphNode, GraphEdge } from '@arka-protocol/types';
 
 /**
  * Node types in the compliance graph

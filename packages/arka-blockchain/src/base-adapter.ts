@@ -17,8 +17,8 @@ import type {
   AnchorQuery,
   VerificationResult,
 } from './types.js';
-import type { MerkleProof } from '@arka/crypto';
-import { verifyMerkleProof } from '@arka/crypto';
+import type { MerkleProof } from '@arka-protocol/crypto';
+import { verifyMerkleProof } from '@arka-protocol/crypto';
 
 /**
  * Abstract base class for blockchain adapters

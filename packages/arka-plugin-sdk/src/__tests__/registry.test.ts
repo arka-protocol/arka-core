@@ -10,7 +10,7 @@ import {
   type PluginRegistryEvent,
 } from '../registry.js';
 import type { ArkaDomainPlugin, PluginManifest, PluginHooks } from '../types.js';
-import type { ArkaEntityType, ArkaRule } from '@arka/types';
+import type { ArkaEntityType, ArkaRule } from '@arka-protocol/types';
 
 // Helper to create a mock plugin
 function createMockPlugin(manifest: Partial<PluginManifest> = {}): ArkaDomainPlugin {

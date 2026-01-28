@@ -10,7 +10,7 @@ import type {
   ArkaDecision,
   ArkaCondition,
   ArkaConsequence,
-} from '@arka/types';
+} from '@arka-protocol/types';
 import { mockEvent, mockRule, mockDecision, mockRuleEvaluation } from '../mocks/index.js';
 
 // ============================================================================

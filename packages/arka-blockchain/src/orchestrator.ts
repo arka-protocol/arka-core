@@ -5,13 +5,13 @@
  * Manages batching, anchoring, and verification of decision records.
  */
 
-import { createLogger } from '@arka/utils';
+import { createLogger } from '@arka-protocol/utils';
 import {
   getMerkleRoot,
   generateMerkleProof,
   getGlobalEventLog,
   type MerkleProof,
-} from '@arka/crypto';
+} from '@arka-protocol/crypto';
 import type {
   BlockchainAdapter,
   BlockchainConfig,

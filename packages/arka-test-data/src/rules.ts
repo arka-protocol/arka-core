@@ -2,7 +2,7 @@
  * Test Rule Fixtures
  */
 
-import type { ArkaRule } from '@arka/types';
+import type { ArkaRule } from '@arka-protocol/types';
 
 // ============ Loan Rules ============
 

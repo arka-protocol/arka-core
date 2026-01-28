@@ -18,7 +18,7 @@ import type { ValidatorRegistry } from './validator-registry.js';
 import { selectProposer, hasQuorum } from './validator-weights.js';
 import type { FinalityGadget } from './finality-gadget.js';
 import type { SlashingManager } from './slashing.js';
-import { hashData } from '@arka/crypto';
+import { hashData } from '@arka-protocol/crypto';
 
 /**
  * Consensus event types

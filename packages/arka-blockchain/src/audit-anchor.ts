@@ -12,8 +12,8 @@
  */
 
 import { createHash } from 'crypto';
-import { canonicalSerialize } from '@arka/crypto';
-import { createLogger, ids } from '@arka/utils';
+import { canonicalSerialize } from '@arka-protocol/crypto';
+import { createLogger, ids } from '@arka-protocol/utils';
 import type { BlockchainAdapter, AnchoredRecord } from './types.js';
 
 const logger = createLogger({ service: 'audit-anchor' });

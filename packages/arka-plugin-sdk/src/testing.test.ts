@@ -15,7 +15,7 @@ import {
   assert,
 } from './testing.js';
 import type { ArkaDomainPlugin, DomainEvent } from './types.js';
-import type { ArkaRule, ArkaDecision, ArkaEvent, ArkaEntityType } from '@arka/types';
+import type { ArkaRule, ArkaDecision, ArkaEvent, ArkaEntityType } from '@arka-protocol/types';
 
 describe('Testing Utilities', () => {
   describe('createMockEvent', () => {

@@ -5,8 +5,8 @@
  */
 
 import Ajv, { type ErrorObject } from 'ajv';
-import type { ArkaEntity, ArkaEntityType, JSONSchema } from '@arka/types';
-import { SchemaValidationError } from '@arka/utils';
+import type { ArkaEntity, ArkaEntityType, JSONSchema } from '@arka-protocol/types';
+import { SchemaValidationError } from '@arka-protocol/utils';
 
 // Create a single Ajv instance for reuse
 const ajv = new Ajv({

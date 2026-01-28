@@ -12,7 +12,7 @@ import type {
   ArkaEntity,
   ArkaDecision,
   RuleFilterParams,
-} from '@arka/types';
+} from '@arka-protocol/types';
 
 import { RuleRegistry, EntityTypeRegistry } from './registry.js';
 import { evaluateRules, evaluateSingleRule, getApplicableRules, type EvaluationContext, type EvaluateSingleRuleInput } from './evaluator.js';

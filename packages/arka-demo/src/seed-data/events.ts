@@ -4,7 +4,7 @@
  * Pre-configured events for demonstrating rule evaluation.
  */
 
-import type { ArkaEvent } from '@arka/types';
+import type { ArkaEvent } from '@arka-protocol/types';
 
 /**
  * Generate a unique event ID

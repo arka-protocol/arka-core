@@ -4,7 +4,7 @@
  * Pre-configured customer profiles for demonstrations.
  */
 
-import type { ArkaEntity } from '@arka/types';
+import type { ArkaEntity } from '@arka-protocol/types';
 
 /**
  * Individual customers

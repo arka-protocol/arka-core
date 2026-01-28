@@ -17,9 +17,9 @@
  */
 
 import { createHash } from 'crypto';
-import { canonicalSerialize, canonicalStringify } from '@arka/crypto';
-import { createLogger, ids } from '@arka/utils';
-import type { ArkaRule, ArkaCondition, ArkaConsequence } from '@arka/types';
+import { canonicalSerialize, canonicalStringify } from '@arka-protocol/crypto';
+import { createLogger, ids } from '@arka-protocol/utils';
+import type { ArkaRule, ArkaCondition, ArkaConsequence } from '@arka-protocol/types';
 import type { BlockchainAdapter, AnchoredRecord } from './types.js';
 
 const logger = createLogger({ service: 'rule-nft' });

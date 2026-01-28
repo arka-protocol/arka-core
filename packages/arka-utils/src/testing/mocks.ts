@@ -13,7 +13,7 @@
  *   import { createLogger } from '@arka/utils/logger';
  *
  *   // In test files, you can use barrel import:
- *   import { createMockLogger } from '@arka/utils';
+ *   import { createMockLogger } from '@arka-protocol/utils';
  */
 
 import type { Request, Response, NextFunction } from 'express';

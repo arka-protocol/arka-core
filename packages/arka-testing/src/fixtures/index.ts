@@ -4,7 +4,7 @@
  * Pre-built test data fixtures for common testing scenarios.
  */
 
-import type { ArkaRule, ArkaEvent, ArkaEntity } from '@arka/types';
+import type { ArkaRule, ArkaEvent, ArkaEntity } from '@arka-protocol/types';
 
 // ============================================================================
 // Sample Rules

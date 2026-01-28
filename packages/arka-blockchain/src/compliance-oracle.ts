@@ -11,9 +11,9 @@
  */
 
 import { createHash, createVerify, createSign } from 'crypto';
-import { canonicalSerialize } from '@arka/crypto';
-import { createLogger, ids } from '@arka/utils';
-import type { ArkaEvent } from '@arka/types';
+import { canonicalSerialize } from '@arka-protocol/crypto';
+import { createLogger, ids } from '@arka-protocol/utils';
+import type { ArkaEvent } from '@arka-protocol/types';
 import type { BlockchainAdapter } from './types.js';
 
 const logger = createLogger({ service: 'compliance-oracle' });

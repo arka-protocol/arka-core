@@ -13,7 +13,7 @@ import type {
   ArkaCondition,
   ArkaRuleEvaluation,
   CompareCondition,
-} from '@arka/types';
+} from '@arka-protocol/types';
 import { demoDataset, datasetStats } from '../seed-data/index.js';
 
 /**

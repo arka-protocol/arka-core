@@ -5,7 +5,7 @@
  * based on geographic, entity type, and regulatory hierarchy (Enhancement #6).
  */
 
-import type { ArkaRule, RuleSeverity } from '@arka/types';
+import type { ArkaRule, RuleSeverity } from '@arka-protocol/types';
 
 /**
  * Jurisdiction definition

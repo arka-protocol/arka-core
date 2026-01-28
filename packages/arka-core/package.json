@@ -1,7 +1,7 @@
 {
-  "name": "@arka/core",
+  "name": "@arka-protocol/core",
   "version": "0.1.0",
-  "description": "ARKA Protocol Core Rules Engine",
+  "description": "Pure, deterministic compliance rules engine for building regulatory and policy enforcement systems. Features bytecode compilation, multi-jurisdiction harmonization, time-travel simulation, and adaptive risk scoring.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -20,9 +20,42 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "keywords": [
+    "compliance",
+    "rules-engine",
+    "policy-engine",
+    "regulatory",
+    "governance",
+    "risk-management",
+    "fintech",
+    "regtech",
+    "aml",
+    "kyc",
+    "fraud-detection",
+    "multi-jurisdiction",
+    "bytecode",
+    "deterministic",
+    "time-travel",
+    "audit",
+    "enterprise"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arka-protocol/arka-core.git",
+    "directory": "packages/arka-core"
+  },
+  "homepage": "https://www.arkaprotocol.com",
+  "bugs": {
+    "url": "https://github.com/arka-protocol/arka-core/issues"
+  },
+  "author": "ARKA Protocol",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "@arka/types": "workspace:*",
-    "@arka/utils": "workspace:*",
+    "@arka-protocol/types": "workspace:*",
+    "@arka-protocol/utils": "workspace:*",
     "ajv": "^8.12.0"
   },
   "devDependencies": {

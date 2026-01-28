@@ -10,8 +10,8 @@ import type {
   ArkaEntityType,
   ArkaRule,
   CreateEventInput,
-} from '@arka/types';
-import { ids, now } from '@arka/utils';
+} from '@arka-protocol/types';
+import { ids, now } from '@arka-protocol/utils';
 import type {
   ArkaDomainPlugin,
   PluginManifest,

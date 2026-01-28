@@ -4,7 +4,7 @@
  * Pre-configured rules for demonstrating ARKA Engine capabilities.
  */
 
-import type { ArkaRule } from '@arka/types';
+import type { ArkaRule } from '@arka-protocol/types';
 
 /**
  * AML (Anti-Money Laundering) Rules

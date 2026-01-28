@@ -11,7 +11,7 @@ import type {
   ValidatorConfig,
 } from './types.js';
 import type { ValidatorRegistry } from './validator-registry.js';
-import { hashData } from '@arka/crypto';
+import { hashData } from '@arka-protocol/crypto';
 
 /**
  * Slashing configuration

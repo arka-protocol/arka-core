@@ -13,7 +13,7 @@ import type {
   ArkaConsequence,
   ArkaRuleEvaluation,
   ComparisonOperator,
-} from '@arka/types';
+} from '@arka-protocol/types';
 
 // ============================================================================
 // Mock Event
