@@ -68,10 +68,10 @@ const decision = await engine.evaluate(event);
 
 ## Documentation
 
-- [Getting Started Guide](https://arka-protocol.io/docs/getting-started)
-- [Rule DSL Reference](https://arka-protocol.io/docs/rules)
-- [Plugin Development](https://arka-protocol.io/docs/plugins)
-- [API Reference](https://arka-protocol.io/docs/api)
+- [Getting Started Guide](https://www.arkaprotocol.com/docs/1.0.0/getting-started)
+- [Rule DSL Reference](https://www.arkaprotocol.com/docs/1.0.0/rules)
+- [Plugin Development](https://www.arkaprotocol.com/docs/1.0.0/plugins)
+- [API Reference](https://www.arkaprotocol.com/docs/1.0.0/api)
 
 ## Contributing
 
@@ -83,8 +83,8 @@ Apache 2.0 - see [LICENSE](LICENSE) for details.
 
 ## Enterprise
 
-Looking for enterprise features like AI-powered monitoring, predictive compliance, and managed deployment? Check out [ARKA Enterprise](https://arka-protocol.io/enterprise).
+Looking for enterprise features like AI-powered monitoring, predictive compliance, and managed deployment? Contact us at [arkaprotocol.com](https://www.arkaprotocol.com/#contact-form).
 
 ---
 
-Built with ❤️ by [ARKA Systems](https://arka-systems.com)
+Built with ❤️ by [ARKA Protocol](https://www.arkaprotocol.com)
